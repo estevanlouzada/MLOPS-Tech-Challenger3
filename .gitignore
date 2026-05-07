@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dados brutos (muito grandes para git)
+dados/flights.csv
+dados/airports.csv
+dados/airlines.csv
+
+# Outputs
+outputs/models/*.pkl
+outputs/models/*.joblib
+
+# Ambiente (contém configs locais — não commitar)
+.env
+
+# Claude Code (configs locais com paths do sistema)
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

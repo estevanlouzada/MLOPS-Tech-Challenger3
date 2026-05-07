@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python*)",
+      "Bash(pip*)",
+      "Bash(jupyter*)",
+      "Bash(ls*)",
+      "Bash(mkdir*)",
+      "Bash(cp*)",
+      "Bash(mv*)",
+      "Bash(head*)",
+      "Bash(wc*)",
+      "Bash(du*)",
+      "Bash(find*)",
+      "Bash(cat*)",
+      "Bash(git*)"
+    ],
+    "deny": []
+  }
+}

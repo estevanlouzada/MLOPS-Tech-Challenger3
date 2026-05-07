@@ -1,0 +1,3 @@
+Modelo,RMSE,MAE,R²
+Linear Regression,36.0208,20.5259,0.0294
+XGBoost Regressor,35.3703,19.9872,0.0641
